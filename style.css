@@ -1,0 +1,28 @@
+
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 700px;
+}
+.row {
+    display: flex;
+    flex: 0 0 auto;
+}
+.box {
+    flex: 1 1 auto;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+}
+
+.changeColor {
+    background-color: rgb(146, 91, 91);
+}
+
+
